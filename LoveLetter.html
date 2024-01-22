@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my first assignment for MERN Bootcamp 2024">
+        <title>Love Letter</title>
+        <link rel="icon" href="love.png" type="image/x-icon">
+        <style>
+
+            body {
+                margin: auto;
+                padding: 0;
+                max-width: 1200px;
+                font-size: 22px;
+                line-height: 35px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .title {
+                display: grid;
+                align-items: center;
+                grid-template-columns: 1fr 1fr;
+                background-color: rgba(190, 89, 143, 0.514);
+                color:black;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                
+            }
+
+            section {
+                background-color: pink;
+                margin: 10px;
+                padding: 10px;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            #footer {
+                background-color: #333;
+                color:aliceblue;
+            }
+            
+            #footer p {
+                text-align: center;
+                font-size: 1rem;
+            }
+
+            a {
+                color:aquamarine;
+                text-decoration: none;
+            }
+
+            a:hover, a:active {
+                color:aqua;
+            }
+
+            mark {
+                color:coral;
+                background-color:antiquewhite;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+        <div class="title">
+            <img src="firstlove.png" alt="First love logo" title="My first love" width="400" height="200">
+            <h1>My First Love</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#first">Love at first sight</a>
+                </li>
+                <li>
+                    <a href="#second">Am i crazy..?</a>
+                </li>
+                <li>
+                    <a href="#third">How do you feel about me..?</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <hr>
+
+        <main>
+        <section id="first">
+            <h2>Love at first sight</h2>
+            <p>Dear crush,
+            <br>From the moment I met you, there was something about you that captured my heart.
+            <aside>
+                <details>
+                    <summary>Can you guess what is it...?? 	&#128525</summary>
+                    <ol>
+                        <li>Your kind smile</li>
+                        <li>Infectious laughter</li>
+                        <li>The way you light up a room with your presence</li> 
+                    </ol>
+                </details>
+            </aside>
+            All make me feel a warmth and happiness that I cannot fully describe.
+            <br>It is as if, in your company, everything else fades away and all that matters is the connection we share.
+        </p>
+        </section>
+
+        <hr>
+
+        <section id="second">
+            <h2>Am i crazy..?</h2>
+            <p>I find myself <strong>constantly thinking</strong> about you, <strong>daydreaming about the moments</strong> we could share together.  
+            <br>You have become the <em>inspiration behind my smiles</em> and the <em>reason behind the fluttering butterflies</em> in my stomach.
+            <br>Your presence in my life has brought such joy and happiness that I never knew was possible.
+             </p>
+        </section>
+
+        <hr>
+
+        <section id="third">
+            <h2>How do you feel about me..?</h2>
+            <p>I want you to know that my feelings for you are <mark>genuine and sincere</mark>.
+            <br>I am <mark>willing to take the risk</mark> and hope that you feel the same way.
+            <br>If not, I will cherish the friendship we have and continue to admire you from afar.
+            <br><br>&#128151 But if there is a possibility of something more, I would be honored to embark on this journey with you, to explore the depths of love and create beautiful memories together.&#128151
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Wish to hear from you soon!</h2>
+            <form>
+                <p>
+                    <label for="answer">Are our feelings mutual? </label>
+                    <select name="answer" id="answer">
+                        <option value="yes">Yes! ^_^</option>
+                        <option value="no">No T_T</option>
+                    </select>
+                </p>
+            </form>
+            <p>Final words, I have a <a href="https://www.youtube.com/watch?v=b88SWswbk7M" target="_blank">gift</a> for you.. Hope you like it..</p>
+            <p>
+                Yours truly,<br>
+                Muhammad Akram
+            </p>
+            <a href="#">Back to top</a>
+        </section>        
+        </main>
+
+        <hr>
+
+        <footer id="footer">
+            <br>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send me some comments!</legend>
+                    <label for="comment">Your Comments:</label>
+                    <br>
+                    <textarea name="comment" id="comment"
+                    cols="30" rows="10"
+                    placeholder="Type your comments here...."></textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <p>
+                &copy Muhammad Akram, 2024 &copy
+            </p>
+        </footer>
+    </body>
+</html>
